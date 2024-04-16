@@ -24,19 +24,21 @@ header{
 }
 
 header a{
-    color: #eee;
-    margin-right: 5px;
+    color: rgba(0, 0, 0, 0.624);
+    background: #ffffff;
+    border-radius: 3.5px;
+    margin-right: 7px;
     padding: 5px 10px;
     transition: 0.2s;
 }
 
 a.active{
-    background:  #ff00f7 ;
-    border-radius: 2px;
+    background:  #fff;
+    border-radius: 3px;
 }
 
 header a:hover{
-    background:  #ff00f7 ;
+    background:  #aaa9a9ab ;
     border-radius: 2px;
 }
 
@@ -70,8 +72,13 @@ header a:hover{
     transform: translateX(-50%);
     padding-right: 30%;
     box-sizing: border-box;
-    color: #fff;
-    text-shadow: 0 5px 10px #0004;
+    color: #ffffff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.557);
+}
+
+.slider .list .item .content .description{
+    color: #ffffff;
+    font-size: 15px;
 }
 
 .slider .list .item .content .title,
